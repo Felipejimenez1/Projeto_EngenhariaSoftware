@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title Page-->
+    <title>MDT - Maluco do TI</title>
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Main CSS-->
+    <link href="css/cadastro.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-sm navbar-light navbar-transparente">
+  
+          <div class="container">
+  
+            <a href="index.html" class="navbar-brand mx-auto">
+              <img src="imagens/computer.png" width="90" class="d-inline-block align-top" alt="">  <span style="color: white; font-size: 3em;"> MDT - Maluco do TI </span> 
+            </a>
+  
+          </div>
+  
+        </nav>
+  
+      </header>
+
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+          <div class="row justify-content-center align-items-center h-100">
+            <div class="col-12 col-lg-9 col-xl-7">
+              <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                <div class="card-body p-4 p-md-5">
+                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Cadastrar usuário</h3>
+                  <form>
+      
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+      
+                        <div class="form-outline">
+                          <input type="text" id="firstName" class="form-control form-control-lg" />
+                          <label class="form-label" for="firstName">Nome</label>
+                        </div>
+      
+                      </div>
+                      <div class="col-md-6 mb-4">
+      
+                        <div class="form-outline">
+                          <input type="text" id="lastName" class="form-control form-control-lg" />
+                          <label class="form-label" for="lastName">Sobrenome</label>
+                        </div>
+      
+                      </div>
+                    </div>
+      
+                    <div class="row">
+                      <div class="col-md-6 mb-4 d-flex align-items-center">
+      
+                        <div class="form-outline datepicker w-100">
+                          <input
+                            type="text"
+                            class="form-control form-control-lg"
+                            id="birthdayDate"
+                          />
+                          <label for="birthdayDate" class="form-label">Data de Nascimento</label>
+                        </div>
+      
+                      </div>
+                      <div class="col-md-3 mb-4">
+      
+                        <h6 class="mb-2 pb-1">Gênero: </h6>
+      
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="femaleGender"
+                            value="option1"
+                            checked
+                          />
+                          <label class="form-check-label" for="femaleGender">Feminino</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="maleGender"
+                            value="option2"
+                          />
+                          <label class="form-check-label" for="maleGender">Masculino</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="otherGender"
+                            value="option3"
+                          />
+                          <label class="form-check-label" for="otherGender">Outro</label>
+                        </div>
+      
+                      </div>
+                    </div>
+      
+                    <div class="row">
+                      <div class="col-md-6 mb-4 pb-2">
+      
+                        <div class="form-outline">
+                          <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                          <label class="form-label" for="emailAddress">Email</label>
+                        </div>
+      
+                      </div>
+                      <div class="col-md-6 mb-4 pb-2">
+      
+                        <div class="form-outline">
+                          <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                          <label class="form-label" for="phoneNumber">Telefone</label>
+                        </div>
+      
+                      </div>
+                    </div>
+      
+                    <div class="pt-2" style="text-align: center;">
+                      <button class="btn btn-primary btn-lg" type="submit" value="Submit"> Cadastrar </button>
+                    </div>
+      
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+</body>
+
+</html>

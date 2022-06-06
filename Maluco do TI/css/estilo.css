@@ -1,0 +1,279 @@
+body {
+    background: rgb(240, 240, 240);
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: #0460e9
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: white;
+}
+
+ul li a {
+	font-size: 1.3em;
+    
+}
+
+footer {
+    background: #0460e9;
+    text-decoration: none;
+    color: white;
+    padding: 30px 0px 20px 0px;
+}
+
+footer div p a {
+    color: white;
+    padding-left: 35px;
+}
+
+footer div p a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#home {
+	background: #2caaff;
+	color: white;
+}
+
+#peca {
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: orange;
+    color: white;
+    display: block;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.caixa {
+	padding: 60px 0;
+	border: 1px solid #ffffff;
+}
+
+.cabcaixa {
+    color: black;
+    font-size: 1.75em;
+}
+
+.degrade {
+    background-image: linear-gradient(#2caaff, rgb(187, 230, 255));
+    padding: 20px;
+}
+
+.degradeinverso {
+    background-image: linear-gradient(rgb(187, 230, 255), #2caaff);
+    padding: 20px;
+}
+
+.noticias {
+    text-align: center;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    letter-spacing: 0.05em;
+    background: rgba(158, 197, 230, 0.993);
+    margin-bottom: 0px;
+}
+
+.divisor {
+    width: 1px;
+    height: 30px;
+    background: white;
+    margin: 12px 5px 12px 10px;
+}
+
+.gradiente {
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  }
+
+.gradiente2 {
+    background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% );
+}
+
+.pecas {
+    background: rgb(255, 255, 255, 0.9);
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.arrumalink {
+    text-decoration: none;
+    color: white;
+}
+
+.arrumalink:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.arrumagrid {
+    text-align: center;
+}
+
+.textopecas {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.fundopecas {
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 30px;
+    grid-gap: 50px;
+    background: rgb(240, 240, 240);
+    color: #444;
+    margin-left: 50px;
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+.dropbtn {
+    background-color: #0460e9;
+    color: white;
+    font-size: 1.35em;
+    border: none;
+    cursor: pointer;
+    margin-top: 6px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: orange;
+    border-radius: 5px;
+  }
+
+  .transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+
+  .transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: black;
+  }
+
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+}
+  
+.sugestoes {
+  margin: 20px 40px;
+  background: rgb(189, 189, 189, 0.2);
+  border-radius: 10px;
+  font-size: 1.3em;
+}
+
+.animado {
+  animation: transitionIn 2s;
+}
+
+.animado2 {
+  animation: transition2 4s;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+@keyframes transition2 {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
